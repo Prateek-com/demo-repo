@@ -9,8 +9,11 @@
   --font-display: 'Outfit', sans-serif;
 
   /* Official Government Blue Theme */
-  --background: 210 40% 98%;
-  --foreground: 222 47% 11%;
+  colors: {
+  background: "hsl(var(--background))",
+  foreground: "hsl(var(--foreground))",
+}
+
 
   --primary: 217 91% 60%;
   --primary-foreground: 210 40% 98%;
@@ -63,3 +66,4 @@
     @apply bg-white/70 backdrop-blur-lg border border-white/50 shadow-xl;
   }
 }
+

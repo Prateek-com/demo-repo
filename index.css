@@ -14,7 +14,9 @@
   foreground: "hsl(var(--foreground))",
 }
 
-
+//it also work 
+  --background: hsl(210 40% 98%);
+--foreground: hsl(222 47% 11%); 
   --primary: 217 91% 60%;
   --primary-foreground: 210 40% 98%;
 
@@ -66,4 +68,5 @@
     @apply bg-white/70 backdrop-blur-lg border border-white/50 shadow-xl;
   }
 }
+
 
